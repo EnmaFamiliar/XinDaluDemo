@@ -1,0 +1,29 @@
+﻿<Window x:Class="ADAMMoni.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADAMMoni"
+        mc:Ignorable="d"
+        Title="模拟和数字" Height="350" Width="525" ResizeMode="CanMinimize" Loaded="Window_Loaded">
+    <Grid>
+        <Label x:Name="label" Content="温度" HorizontalAlignment="Left" Margin="71,75,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="湿度" HorizontalAlignment="Left" Margin="71,106,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.423,1.219"/>
+        <Label x:Name="label_Copy1" Content="火焰" HorizontalAlignment="Left" Margin="71,137,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="123,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="123,106,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="123,137,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy2" Content="烟雾" HorizontalAlignment="Left" Margin="71,168,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="123,168,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1" Content="人体检测" HorizontalAlignment="Left" Margin="71,199,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="134,202,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label2" Content="光照值" HorizontalAlignment="Left" Margin="284,75,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="23" Margin="344,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label3" Content="红外检测" HorizontalAlignment="Left" Margin="71,230,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="23" Margin="134,232,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="灯1" HorizontalAlignment="Left" Margin="284,123,0,0" VerticalAlignment="Top" Width="75" Tag="1" Click="button_Click"/>
+        <Button x:Name="button1" Content="灯2" HorizontalAlignment="Left" Margin="389,123,0,0" VerticalAlignment="Top" Width="75" Tag="1" Click="button1_Click"/>
+        <Button x:Name="button2" Content="3" HorizontalAlignment="Left" Margin="284,171,0,0" VerticalAlignment="Top" Width="75" Tag="1" Click="button2_Click"/>
+
+    </Grid>
+</Window>
